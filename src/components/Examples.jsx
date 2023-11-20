@@ -32,8 +32,7 @@ export default function Examples(){
     return (
         <Section id="examples" title="Examples">
             <Tabs 
-                buttonsContainer="menu"  // {Section} si es una variable va entre { }
-                // Con B mayúscula, ButtonsContainer sería un componente, que también se puede hacer
+                
                 buttons={
                 <>
                     <TabButton isSelected={selectedTopic === 'components'} 
